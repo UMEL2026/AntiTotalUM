@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UM Anti-Total</title>
+
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <img src="./logo.jpg.jpeg" width="100" alt="logo um en lutte">
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <span class="nav-item">Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="./page_2.html">
+                    <span class="nav-item">Page 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="./ressources.html">
+                    <span class="nav-item">Ressources</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <h1>CONTRE L'ACCORD TOTAL x UM</h1>
+        </div>
+        <div class="lien_petition">
+            <button class="button-3" onclick="window.location.href='https://framapetitions.org/petition/user/petition-total-UM/rupture_convention';">SIGNEZ LA PETITION</button>
+        </div>
+        <div class="texte_principal">
+            <h2>Pourquoi signer la pétition?</h2>
+            <p>
+                <b>L’UM a signé le 11 juin un accord avec Total Energies,</b> avec un manque de communication auprès de l’ensemble des élèves de l‘UM, et cela à une période où plus personne ne fréquente le campus.
+                <br><br>
+                <i>“La Convention est conclue pour les 3 années universitaires 2026-2027, 2027-2028, et 2028- 2029, soit une durée de 3 (trois) ans, du 1er septembre 2026 au 31 août 2029.”</i>
+                <br><br>
+                Cet accord stipule que Total aura une capacité d’action sur le <b>Master Transition énergétique</b> de la fds : choix et rédaction du programme, choix des MCC, offre de stages aux étudiants du Master, visite d’usine… Ce sont des employés et des retraités de Total qui donneront les cours (62h) gratuitement au lieu des enseignants.
+            </p>
+            <br>
+            <p>
+                L’UM est réputée à l'international pour la qualité de ses enseignements en écologie, et nous pensons qu’un accord avec Total, géant pétrolier connu pour son <b>greenwashing</b>, son utilisation à outrance des <b>ressources fossiles</b> et son impact néfaste sur la biodiversité est une aberration.
+                <br>
+                Nous sommes nombreux à voir une incohérence flagrante entre les valeurs portées par l’UM et cette union avec TotalEnergies.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function () {
+        sidebar.classList.toggle("active");
+    };
+</script>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <img src="./logo.jpg.jpeg" width="100" alt="logo um en lutte">
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <span class="nav-item">Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="./page_2.html">
+                    <span class="nav-item">Page 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="./ressources.html">
+                    <span class="nav-item">Ressources</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- mettre liens href -->
+    <div class="main-content">
+        <h1>Ressources</h1>
+        <h4>Annonce de la convention sur le  site de l'UM</h4>
+        https://www.umontpellier.fr/articles/luniversite-de-montpellier-et-totalenergies-signent-un-partenariat-en-faveur-de-la-formation-aux-metiers-de-lenergie
+
+        <h4>Condamnation de TotalEnergies pour "pratiques commerciales trompeuses" le 23.10.2025 (lire page 29)</h4>
+        https://www.courdecassation.fr/decision/export/68ff2f777e08341cb497abca/1
+
+        <h4> Signalements de TotalEnergies pour manquement à son obligation de sincérité le 29.05.2025</h4>
+        https://transparency-france.org/2026/05/29/transparency-international-france-saisit-les-autorites-de-controle-du-lobbying-pour-manquement-de-totalenergies-a-lobligation-de-sincerite/
+
+        <h4>Early warnings and emerging accountability: Total’s responses to global warming, 1971–2021</h4>
+        https://doi.org/10.1016/j.gloenvcha.2021.102386
+
+        <h4>The political ecology of oil and gas corporations: TotalEnergies and post-colonial exploitation to concentrate energy in industrial economies</h4>
+        https://doi.org/10.1016/j.erss.2024.103434
+
+        <h4>L'Université d'Amsterdam met fin à toute collaboration avec les entreprises du secteur des énergies fossiles</h4>
+        https://www.uva.nl/en/research/research-environment/third-party-collaborations/research-involving-fossil-fuel-industry.html?cb
+
+        <h4>Total, L’Oréal... quand des multinationales dictent leur loi à l’enseignement supérieur</h4>
+        https://www.liberation.fr/societe/education/total-loreal-quand-des-multinationales-dictent-leur-loi-a-lenseignement-superieur-20241015_2Z7DMDKAY5ABNMZACYYHF6O62U/
+
+    </div>
+    
+</body>
+
+<script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function () {
+        sidebar.classList.toggle("active");
+    };
+</script>
+
+</html>
