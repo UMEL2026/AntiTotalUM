@@ -9,15 +9,22 @@ html {
     position: relative;
 }
 
-.lien_petition {
+.header {
+    color: #eee;
+    background-color: #e33030;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    min-height: 150px;
+    font-size: large;
+    font-weight: 200;
 }
 
 .button-3 {
   appearance: none;
-  background-color: #497b56;
+  background-color: #2b2c2b;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
@@ -25,10 +32,10 @@ html {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 20px;
-  padding: 6px 16px;
+  padding: 12px 32px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -45,7 +52,7 @@ html {
 }
 
 .button-3:hover {
-  background-color: #5c956b;
+  background-color: #606060;
 }
 
 .button-3:focus {
@@ -65,9 +72,13 @@ html {
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-.user-img {
-    width: 50px;
-    border-radius: 30%;
+.logo span {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.logo img {
+    border-radius: 100%;
     border: 1px solid #eee;
 }
 
@@ -76,7 +87,7 @@ html {
     top: 0;
     bottom:0;
     width: 80px;
-    background-color: #497b56;
+    background-color: #2b2c2b;
     padding: .4rem .8rem;
     transition: all 0.5s ease;
 }
@@ -168,5 +179,17 @@ html {
     left: 80px;
     transition: all 0.5s ease;
     width: calc(100% - 80px);
-    padding: 5px 10px;
+}
+
+.texte_principal {
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.main-content ul li {
+    font-weight: bold;
+    padding-block: 10px;
 }
